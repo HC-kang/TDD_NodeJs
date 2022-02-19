@@ -1,0 +1,22 @@
+{
+  "name": "kyobo_back_mongo",
+  "version": "1.0.0",
+  "description": "book api example",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon index.js"
+  },
+  "author": "Narae jo",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1"
+  },
+  "devDependencies": {
+    "jest": "27.5.1",
+    "node-mocks-http": "1.11.0",
+    "supertest": "6.2.2"
+  }
+}
